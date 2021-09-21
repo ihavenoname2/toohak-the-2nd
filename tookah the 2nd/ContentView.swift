@@ -18,12 +18,12 @@ struct ContentView: View {
                         Spacer()
                     Button("Start!") {
                         
-                    } .padding(50.0)
-                    .background(Color.blue)
-                    .foregroundColor(Color.green)
-                    .cornerRadius(5)
+                    }
                     .frame(width: 300.0, height: 100.0)
-                    .font(.title)
+                    .background(Color.black)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(5)
+                    .font(.system(size: 70))
                     .padding()
                     
                     Text("Press start to begin")
