@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EF7A92226F9D4970093A80C /* tookah_the_2ndApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A92126F9D4970093A80C /* tookah_the_2ndApp.swift */; };
+		2EF7A92426F9D4970093A80C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A92326F9D4970093A80C /* ContentView.swift */; };
+		2EF7A92626F9D49A0093A80C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7A92526F9D49A0093A80C /* Assets.xcassets */; };
+		2EF7A92926F9D49A0093A80C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF7A92826F9D49A0093A80C /* Preview Assets.xcassets */; };
+		2EF7A93426F9D49A0093A80C /* tookah_the_2ndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A93326F9D49A0093A80C /* tookah_the_2ndTests.swift */; };
+		2EF7A93F26F9D49A0093A80C /* tookah_the_2ndUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF7A93E26F9D49A0093A80C /* tookah_the_2ndUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EF7A93026F9D49A0093A80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF7A91626F9D4970093A80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF7A91D26F9D4970093A80C;
+			remoteInfo = "tookah the 2nd";
+		};
+		2EF7A93B26F9D49A0093A80C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EF7A91626F9D4970093A80C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF7A91D26F9D4970093A80C;
+			remoteInfo = "tookah the 2nd";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EF7A91E26F9D4970093A80C /* tookah the 2nd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tookah the 2nd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF7A92126F9D4970093A80C /* tookah_the_2ndApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tookah_the_2ndApp.swift; sourceTree = "<group>"; };
+		2EF7A92326F9D4970093A80C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2EF7A92526F9D49A0093A80C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EF7A92826F9D49A0093A80C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2EF7A92A26F9D49A0093A80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF7A92F26F9D49A0093A80C /* tookah the 2ndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tookah the 2ndTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF7A93326F9D49A0093A80C /* tookah_the_2ndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tookah_the_2ndTests.swift; sourceTree = "<group>"; };
+		2EF7A93526F9D49A0093A80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF7A93A26F9D49A0093A80C /* tookah the 2ndUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tookah the 2ndUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF7A93E26F9D49A0093A80C /* tookah_the_2ndUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tookah_the_2ndUITests.swift; sourceTree = "<group>"; };
+		2EF7A94026F9D49A0093A80C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF7A91B26F9D4970093A80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7A92C26F9D49A0093A80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7A93726F9D49A0093A80C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF7A91526F9D4970093A80C = {
+			isa = PBXGroup;
+			children = (
+				2EF7A92026F9D4970093A80C /* tookah the 2nd */,
+				2EF7A93226F9D49A0093A80C /* tookah the 2ndTests */,
+				2EF7A93D26F9D49A0093A80C /* tookah the 2ndUITests */,
+				2EF7A91F26F9D4970093A80C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EF7A91F26F9D4970093A80C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7A91E26F9D4970093A80C /* tookah the 2nd.app */,
+				2EF7A92F26F9D49A0093A80C /* tookah the 2ndTests.xctest */,
+				2EF7A93A26F9D49A0093A80C /* tookah the 2ndUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF7A92026F9D4970093A80C /* tookah the 2nd */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7A92126F9D4970093A80C /* tookah_the_2ndApp.swift */,
+				2EF7A92326F9D4970093A80C /* ContentView.swift */,
+				2EF7A92526F9D49A0093A80C /* Assets.xcassets */,
+				2EF7A92A26F9D49A0093A80C /* Info.plist */,
+				2EF7A92726F9D49A0093A80C /* Preview Content */,
+			);
+			path = "tookah the 2nd";
+			sourceTree = "<group>";
+		};
+		2EF7A92726F9D49A0093A80C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7A92826F9D49A0093A80C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2EF7A93226F9D49A0093A80C /* tookah the 2ndTests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7A93326F9D49A0093A80C /* tookah_the_2ndTests.swift */,
+				2EF7A93526F9D49A0093A80C /* Info.plist */,
+			);
+			path = "tookah the 2ndTests";
+			sourceTree = "<group>";
+		};
+		2EF7A93D26F9D49A0093A80C /* tookah the 2ndUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2EF7A93E26F9D49A0093A80C /* tookah_the_2ndUITests.swift */,
+				2EF7A94026F9D49A0093A80C /* Info.plist */,
+			);
+			path = "tookah the 2ndUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF7A91D26F9D4970093A80C /* tookah the 2nd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF7A94326F9D49A0093A80C /* Build configuration list for PBXNativeTarget "tookah the 2nd" */;
+			buildPhases = (
+				2EF7A91A26F9D4970093A80C /* Sources */,
+				2EF7A91B26F9D4970093A80C /* Frameworks */,
+				2EF7A91C26F9D4970093A80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tookah the 2nd";
+			productName = "tookah the 2nd";
+			productReference = 2EF7A91E26F9D4970093A80C /* tookah the 2nd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2EF7A92E26F9D49A0093A80C /* tookah the 2ndTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF7A94626F9D49A0093A80C /* Build configuration list for PBXNativeTarget "tookah the 2ndTests" */;
+			buildPhases = (
+				2EF7A92B26F9D49A0093A80C /* Sources */,
+				2EF7A92C26F9D49A0093A80C /* Frameworks */,
+				2EF7A92D26F9D49A0093A80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF7A93126F9D49A0093A80C /* PBXTargetDependency */,
+			);
+			name = "tookah the 2ndTests";
+			productName = "tookah the 2ndTests";
+			productReference = 2EF7A92F26F9D49A0093A80C /* tookah the 2ndTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2EF7A93926F9D49A0093A80C /* tookah the 2ndUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF7A94926F9D49A0093A80C /* Build configuration list for PBXNativeTarget "tookah the 2ndUITests" */;
+			buildPhases = (
+				2EF7A93626F9D49A0093A80C /* Sources */,
+				2EF7A93726F9D49A0093A80C /* Frameworks */,
+				2EF7A93826F9D49A0093A80C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2EF7A93C26F9D49A0093A80C /* PBXTargetDependency */,
+			);
+			name = "tookah the 2ndUITests";
+			productName = "tookah the 2ndUITests";
+			productReference = 2EF7A93A26F9D49A0093A80C /* tookah the 2ndUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EF7A91626F9D4970093A80C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2EF7A91D26F9D4970093A80C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2EF7A92E26F9D49A0093A80C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2EF7A91D26F9D4970093A80C;
+					};
+					2EF7A93926F9D49A0093A80C = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2EF7A91D26F9D4970093A80C;
+					};
+				};
+			};
+			buildConfigurationList = 2EF7A91926F9D4970093A80C /* Build configuration list for PBXProject "tookah the 2nd" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EF7A91526F9D4970093A80C;
+			productRefGroup = 2EF7A91F26F9D4970093A80C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF7A91D26F9D4970093A80C /* tookah the 2nd */,
+				2EF7A92E26F9D49A0093A80C /* tookah the 2ndTests */,
+				2EF7A93926F9D49A0093A80C /* tookah the 2ndUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EF7A91C26F9D4970093A80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF7A92926F9D49A0093A80C /* Preview Assets.xcassets in Resources */,
+				2EF7A92626F9D49A0093A80C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7A92D26F9D49A0093A80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7A93826F9D49A0093A80C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF7A91A26F9D4970093A80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF7A92426F9D4970093A80C /* ContentView.swift in Sources */,
+				2EF7A92226F9D4970093A80C /* tookah_the_2ndApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7A92B26F9D49A0093A80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF7A93426F9D49A0093A80C /* tookah_the_2ndTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EF7A93626F9D49A0093A80C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF7A93F26F9D49A0093A80C /* tookah_the_2ndUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2EF7A93126F9D49A0093A80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF7A91D26F9D4970093A80C /* tookah the 2nd */;
+			targetProxy = 2EF7A93026F9D49A0093A80C /* PBXContainerItemProxy */;
+		};
+		2EF7A93C26F9D49A0093A80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2EF7A91D26F9D4970093A80C /* tookah the 2nd */;
+			targetProxy = 2EF7A93B26F9D49A0093A80C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EF7A94126F9D49A0093A80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2EF7A94226F9D49A0093A80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EF7A94426F9D49A0093A80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tookah the 2nd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tookah the 2nd/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.efss.eugene.tookah-the-2nd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EF7A94526F9D49A0093A80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"tookah the 2nd/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tookah the 2nd/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.efss.eugene.tookah-the-2nd";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2EF7A94726F9D49A0093A80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tookah the 2ndTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.efss.eugene.tookah-the-2ndTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tookah the 2nd.app/tookah the 2nd";
+			};
+			name = Debug;
+		};
+		2EF7A94826F9D49A0093A80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tookah the 2ndTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.efss.eugene.tookah-the-2ndTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tookah the 2nd.app/tookah the 2nd";
+			};
+			name = Release;
+		};
+		2EF7A94A26F9D49A0093A80C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tookah the 2ndUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.efss.eugene.tookah-the-2ndUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tookah the 2nd";
+			};
+			name = Debug;
+		};
+		2EF7A94B26F9D49A0093A80C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "tookah the 2ndUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sg.tk.efss.eugene.tookah-the-2ndUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tookah the 2nd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF7A91926F9D4970093A80C /* Build configuration list for PBXProject "tookah the 2nd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF7A94126F9D49A0093A80C /* Debug */,
+				2EF7A94226F9D49A0093A80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF7A94326F9D49A0093A80C /* Build configuration list for PBXNativeTarget "tookah the 2nd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF7A94426F9D49A0093A80C /* Debug */,
+				2EF7A94526F9D49A0093A80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF7A94626F9D49A0093A80C /* Build configuration list for PBXNativeTarget "tookah the 2ndTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF7A94726F9D49A0093A80C /* Debug */,
+				2EF7A94826F9D49A0093A80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF7A94926F9D49A0093A80C /* Build configuration list for PBXNativeTarget "tookah the 2ndUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF7A94A26F9D49A0093A80C /* Debug */,
+				2EF7A94B26F9D49A0093A80C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EF7A91626F9D4970093A80C /* Project object */;
+}
