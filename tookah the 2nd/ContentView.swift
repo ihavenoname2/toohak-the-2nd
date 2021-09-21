@@ -11,10 +11,10 @@ struct ContentView: View {
     var body: some View {
         
             VStack {
-                Text("Not")
-                    .font(.system(size: 50))
-                Text("Kahoot")
-                    .font(.system(size: 50))
+                Text("toohaK")
+                    .font(.system(size: 90))
+                Text("Not Kahoot")
+                    .font(.system(size: 20))
                 Button("Start!") {
                     
                 }
@@ -24,7 +24,7 @@ struct ContentView: View {
                 .font(.title)
                 .padding()
                 
-                Text("Start to begin")
+                Text("Press start to begin")
                     .font(.system(size: 50))
                     .multilineTextAlignment(.center)
                     .padding()
